@@ -1,0 +1,59 @@
+settings:
+  default-balance: 0
+
+afk:
+  enabled: true
+  reward-interval-seconds: 300
+  shards-per-reward: 1
+
+messages:
+  prefix: "#7A4DFF&lSHARDS "
+  balance: "#7A4DFFYou currently have <white>%amount% #7A4DFFShards."
+  balance-other: "#7A4DFF<player> <white>has #7A4DFF%amount% Shards<white>."
+  pay-sent: "<white>You paid #7A4DFF%amount% Shards <white>to #7A4DFF<player><white>."
+  pay-received: "#7A4DFF<player> <white>sent you #7A4DFF%amount% Shards<white>."
+  pay-not-enough: "<red>You do not have enough Shards."
+  pay-self: "<red>You cannot pay yourself."
+  pay-invalid-amount: "<red>Amount must be a positive whole number."
+  player-not-found: "<red>Player not found."
+  set-balance: "#7A4DFF<player><white>'s Shards have been set to #7A4DFF<amount><white>."
+  give-balance: "<white>Given #7A4DFF%amount% Shards <white>to #7A4DFF<player><white>."
+  give-all: "<white>Given #7A4DFF%amount% Shards <white>to all online players."
+  take-balance: "<white>Removed #7A4DFF%amount% Shards <white>from #7A4DFF<player><white>."
+  reset-balance: "#7A4DFF<player><white>'s balance has been reset."
+  reset-all: "<red>All balances have been reset."
+  reset-all-confirm: "<red>Use /shards reset all confirm to confirm this action."
+  reload: "<green>Shards configuration reloaded."
+  invalid-amount: "<red>Invalid amount specified."
+  console-error: "<red>This command can only be used by players."
+  wand-received: "<white>You received the AFK region selection wand."
+  region-created: "<green>AFK region successfully created."
+  region-deleted: "<red>AFK region deleted."
+  region-not-set: "<red>No AFK region is currently set."
+  afk-actionbar: "#7A4DFFYou have been AFK for <white>%timer%#7A4DFF."
+  reward-title: "#7A4DFF+%reward_amount% Shard"
+  reward-subtitle: "<white>You Now Own: #7A4DFF%eshards_balance% Shards"
+
+reward:
+  title:
+    enabled: true
+    fade-in: 10
+    stay: 35
+    fade-out: 10
+  sound:
+    enabled: true
+    type: "ENTITY_EXPERIENCE_ORB_PICKUP"
+    volume: 1.0
+    pitch: 1.0
+
+afk-region:
+  enabled: false
+  world: ""
+  pos1:
+    x: 0
+    y: 0
+    z: 0
+  pos2:
+    x: 0
+    y: 0
+    z: 0

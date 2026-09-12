@@ -1,0 +1,24 @@
+name: eShards
+version: 1.0.0
+main: site.rudracore.eshards.eShards
+api-version: '1.21'
+author: RudraCore
+description: Lightweight Shards economy for Paper.
+
+softdepend: [PlaceholderAPI]
+
+commands:
+  shards:
+    description: Main command for eShards
+    aliases: [shard]
+
+permissions:
+  eshards.use:
+    description: Allows checking balance
+    default: true
+  eshards.pay:
+    description: Allows paying players
+    default: true
+  eshards.admin:
+    description: Allows admin commands
+    default: op
