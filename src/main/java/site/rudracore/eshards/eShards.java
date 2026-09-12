@@ -43,6 +43,9 @@ public class eShards extends JavaPlugin {
         }
 
         getLogger().info("eShards has been enabled.");
+
+        int pluginId = 23376; // Replace with your actual plugin ID
+        org.bstats.bukkit.Metrics metrics = new org.bstats.bukkit.Metrics(this, pluginId);
     }
 
     @Override
